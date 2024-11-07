@@ -26,7 +26,7 @@
 
 >  *Java异常类层次结构概览图* --- 图源小林coding
 
-![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/main/Lesson4/images/Snipaste_2024-10-26_17-08-50.png)
+![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/master/Lesson_4/images/Snipaste_2024-10-26_17-08-50.png)
 
 ​    在 Java 中，所有的异常都有一个**共同**的祖先— › `java.lang` 包中的 `Throwable` 类。按照错误的严重性，从 `Throwable` 父类中衍生出`Error`和`Exception`两大派系
 
@@ -286,7 +286,7 @@ public class GenericsTest {
 
 执行结果如下: 
 
-![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/main/Lesson4/images/image-20241026193333750.png)
+![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/master/Lesson_4/images/image-20241026193333750.png)
 
    在上述未使用泛型的例子中，原生 `List` 返回类型是 `Object` ，获取的 `object` 类型不能使用子类的特有行为，需要手动转换类型才能使用，而转换的时候容易出现`ClassCastException` 异常，我们在运行到有问题的代码前是不知道会出现报错的。
 
@@ -502,7 +502,7 @@ new <String> Person("hello");//显式
 
 ##### 1. 集合框架体系
 
-![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/main/Lesson4/images/1730806789263.png)
+![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/master/Lesson_4/images/1730806789263.png)
 
    集合体系分成了接口、具体类、算法：
 
@@ -516,7 +516,7 @@ new <String> Person("hello");//显式
 
 > *集合框架概览图*
 
-![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/main/Lesson4/images/image-20241105194654150.png)
+![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/master/Lesson_4/images/image-20241105194654150.png)
 
 ##### 2. List
 
@@ -738,7 +738,7 @@ public class HashSetDemo {
 
 **List 和 Set的区别**
 
-![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/main/Lesson4/images/1730806520362.png)
+![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/master/Lesson_4/images/1730806520362.png)
 
 ##### 4. Map
 
@@ -825,7 +825,7 @@ public class HashMapDemo {
 
 **HashMap的底层结构**
 
-![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/main/Lesson4/images/1730806525452.png)
+![](https://github.com/zxyii/Courseware-Backend-Java-2024/blob/master/Lesson_4/images/1730806525452.png)
 
 1. 哈希表 HashMap主要依赖于哈希表（数组）来存储数据。哈希表中的每个元素被称为“bucket”。数组的每个位置（bucket）都可以存放一个元素（键值对），数组的索引是通过键的哈希码经过哈希函数计算得来的。这样我们就可以通过键快速定位到数组的某个位置，取出相应的值，这就是HashMap快速获取数据的原理。
 2. 链表 在理想的情况下，哈希函数将每个键均匀地散列到哈希表的各个位置。但在实际中，我们可能会遇到两个不同的键计算出相同的哈希值，这就是所谓的“哈希冲突”。‘’HashMap通过使用链表来解决这个问题。 当哈希冲突发生时，HashMap会在冲突的bucket位置增加一个链表，新的元素会被添加到链表的末尾。每个链表中的元素都包含了相同哈希值的键值对。所以在查找元素时，如果遇到哈希冲突，HashMap需要进行一次线性查找。

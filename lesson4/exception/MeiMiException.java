@@ -1,4 +1,4 @@
-package Lesson_4.exception;
+package lesson4.exception;
 
 public class MeiMiException extends RuntimeException{
     private Double money;

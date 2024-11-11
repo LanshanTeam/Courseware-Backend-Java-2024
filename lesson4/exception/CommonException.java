@@ -1,4 +1,4 @@
-package Lesson_4.exception;
+package lesson4.exception;
 
 import java.util.ArrayList;
 import java.util.List;

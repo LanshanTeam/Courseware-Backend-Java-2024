@@ -1,4 +1,4 @@
-package Lesson_4.generics;
+package lesson4.generics;
 
 public class GenericsInterfaceTest {
     public static void main(String[] args) {

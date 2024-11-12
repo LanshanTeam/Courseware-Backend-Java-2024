@@ -15,7 +15,7 @@
 | 3        | 面向对象进阶              | 抽象类、final、static、Lambda表达式、内部类                  | 肖智文 |
 | 4        | 泛型、异常处理、集合框架  |                                                              | 郑雪怡 |
 | 5        | 多线程、io、反射          |                                                              | 刘成兴 |
-| 6        | JDBC、MySQL、Redis        |                                                              | 雷超   |
+| 6        | MySQL、Redis        |                                                              | 雷超   |
 | 7        | Maven、Java Web           |                                                              | 黄渝淮 |
 | 8        | Spring、SpringMVC         |                                                              | 刘成兴 |
 | 9        | Mybatis、Springboot       |                                                              | 蒋文杰 |

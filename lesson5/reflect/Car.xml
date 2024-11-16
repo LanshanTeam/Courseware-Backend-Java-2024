@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Bean>
+    <Car>
+        <model>Tesla Model Y</model>
+        <year>2023</year>
+        <class>lesson5.reflect.Car</class>
+    </Car>
+</Bean>
+

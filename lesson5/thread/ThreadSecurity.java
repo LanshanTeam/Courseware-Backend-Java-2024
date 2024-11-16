@@ -25,7 +25,6 @@ public class ThreadSecurity {
         System.out.println(counter.getCount());
     }
 
-    // 计数器类
     static class Counter {
 
         private int count;
@@ -33,9 +32,9 @@ public class ThreadSecurity {
 
         public void increment() {
             lock.lock();
-            try {
+            try { // 临界区
                 count++;
-            } finally {
+            } finally { // 避免发生异常导致锁未释放
                 lock.unlock();
             }
         }
@@ -45,7 +44,3 @@ public class ThreadSecurity {
         }
     }
 }
-
-
-
-

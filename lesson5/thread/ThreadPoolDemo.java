@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 
 public class ThreadPoolDemo {
 
-    private static ExecutorService pool = new ThreadPoolExecutor(
+    private static final ExecutorService pool = new ThreadPoolExecutor(
             3,
             5,
             60,

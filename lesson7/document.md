@@ -1,4 +1,4 @@
-# MySQL、Redis
+# 关系型数据库、SQl、MySQL、Redis
 
 SQL、MySQL、Redis这三块的东西太多了，课件很多东西只讲了皮毛，倒是放了很多视频、博客链接+推荐书籍（很多学长倾力推荐的
 

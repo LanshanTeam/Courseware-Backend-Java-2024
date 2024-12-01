@@ -393,7 +393,7 @@ Redis全称为：Remote Dictionary Server（远程数据服务），该软件使
 我是看《Redis设计与实现》和黑马Redis来学的这个redis数据结构
 
 ### 命令
-
+https://juejin.cn/post/7270114845402660903?searchId=2024120115195842E7CDE2922B79529C57
 命令较MySQL简单，自己下来看
 
 

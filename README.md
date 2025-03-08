@@ -18,7 +18,7 @@
 | 6        | Maven、Java Web           |                                                              | 黄渝淮 |
 | 7        | SQL、MySQL、Redis        |  关系型数据库、CRUD的SQL、MySQL、Redis                                                            | 雷超   |
 | 8        | Spring、SpringMVC         | Spring(IoC、AOP)、Java后端架构、SpringMVC(原理、接收数据、响应数据、拓展) | 刘成兴 |
-| 9        | Mybatis、Springboot       |                                                              | 蒋文杰 |
+| 9        | Mybatis、Springboot       | Mybatis入门，Springboot整合其他框架                          | 蒋文杰 |
 | 10       | Linux、Docker、服务器部署 |                                                              | 黄渝淮 |
 | 寒假考核 | 完成一个单体项目          | 单人或双人（与前端同学合作开发）考核                         |        |
 

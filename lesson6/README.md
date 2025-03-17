@@ -130,14 +130,15 @@ Path=$%2_HOME%/bin
 
 Windows把  `M2_HOME=/path/to/maven-3.9.x` 添加到环境变量中 ，再把`%M2_HOME%\bin`添加到系统Path变量中。我使用的是 `MAVEN_HOME`作为maven安装目录的变量名，这个可以自己定义，没有强制要求，不过最好见名知义，方便后续的管理。
 
-[![image](https://github.com/user-attachments/assets/7424a6b5-bc75-4710-8070-65ea973fdcbe)](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/45b92848-c95f-4b7f-b1d0-8a1c2eea50d3.png)
+![image](https://github.com/user-attachments/assets/6225aa6c-a547-4323-9bd6-f4c46a114191)
 
 
-[![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU0OGY2MDIzNTRhMTI1NzY2MzA4OTE4MmM5YTI3MzhfVDdzUDhtajU0a2htazNZZ29qT0c1REtmcGpjSGpYTDZfVG9rZW46QUZvUGJjcDQ2b3FLNW14M1hZU2NYczZGbmRiXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/5bd9a88d-8a18-4f8b-bdda-8206373ddc9c.png)
+![image](https://github.com/user-attachments/assets/c4a74bf7-3411-434b-b46f-4c9997079668)
+
 
 然后，打开命令行窗口，输入`mvn -version`，应该看到Maven的版本信息：
+![image](https://github.com/user-attachments/assets/1d5b0a83-9b61-4d10-b37b-361c0f6d397c)
 
-[lesson6/image/e2b8044d-57e7-44fa-ab34-f106f3816e2b.png](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/e2b8044d-57e7-44fa-ab34-f106f3816e2b.png)
 到这里maven的安装就完成了。
 
 > 如果使用了 IntelliJ IDEA ，可以不用去额外下载 Maven，直接使用 IDEA 中自带的 Maven 插件即可。IntelliJ IDEA 中自带的 Maven 插件在 `\ideaIU-2019.2.4.win\plugins\maven\lib\maven3`
@@ -156,7 +157,8 @@ Windows把  `M2_HOME=/path/to/maven-3.9.x` 添加到环境变量中 ，再把`%M
 
 现在存在 3 个仓库，那么 jar 包如何查找呢？
 
-[![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2NiNDE5YzIzZWJmZDIyMDQyODlmYmUxYTFlMjE3MDRfWnlaM3YzdEVzVW1aN0g3UkY3dDlFZTVrb0pYckRzSEdfVG9rZW46Tzlyd2JKakZObzA4VWZ4czE1emN2VTIzbkdjXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/09ead09e-7013-4913-bac7-ba9a8acc6b01.png)
+![image](https://github.com/user-attachments/assets/5ed3c62c-fdd5-4988-bf14-09608ecb8def)
+
 
 #### 本地仓库配置
 

@@ -130,7 +130,8 @@ Path=$%2_HOME%/bin
 
 Windows把  `M2_HOME=/path/to/maven-3.9.x` 添加到环境变量中 ，再把`%M2_HOME%\bin`添加到系统Path变量中。我使用的是 `MAVEN_HOME`作为maven安装目录的变量名，这个可以自己定义，没有强制要求，不过最好见名知义，方便后续的管理。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ODcxMmM1ZjliYjdkYTA1NDhmZWFmNDdhMTY0NWEzMGFfV1h5Z2lzOXQ4dWFab0JEaVZHSzR0MDZkN3ltRXVaV1RfVG9rZW46R215NGJPbE5pb29uU214d0FLWmNiM05nblhiXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/7424a6b5-bc75-4710-8070-65ea973fdcbe)
+
 
 ![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU0OGY2MDIzNTRhMTI1NzY2MzA4OTE4MmM5YTI3MzhfVDdzUDhtajU0a2htazNZZ29qT0c1REtmcGpjSGpYTDZfVG9rZW46QUZvUGJjcDQ2b3FLNW14M1hZU2NYczZGbmRiXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
 

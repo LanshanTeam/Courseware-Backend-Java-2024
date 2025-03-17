@@ -14,11 +14,13 @@ Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它�
 
 Linux 的发行版说简单点就是将 Linux 内核与应用软件做一个打包。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YzE5ODg4NWI5MDI3NWMzZDM3ZWQwYWYzNDlkYTI3ZDJfVENsV0pFc0FxTHdRN0h0eGZpbW9GdXZXb0FJaVpYRHBfVG9rZW46SWtPUWI1MWQzb1RYNHd4dld3eWNEb0hCbkFiXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/b6bb96c6-05c9-4aaf-89e3-a665475314c7)
+
 
 目前市面上较知名的发行版有：Ubuntu、RedHat、CentOS、Debian、Fedora、SuSE、OpenSUSE、Arch Linux、SolusOS 等。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmU5MTcxNzc5YjMzYmQ4YmY5NjZlNmYwMWQ4OWFlZDFfQjRRaEVTZ0FVNkZqZzBCd0xUWEJmZm5icDBzZjBnZ1ZfVG9rZW46RHdWamJHVENTb1BDOFh4Rm9iTWM4TU9xbmpnXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/8e6841f1-2067-4543-8cb0-b8c374ad8b4b)
+
 
 ### Linux 安装
 
@@ -38,11 +40,12 @@ Linux 的发行版说简单点就是将 Linux 内核与应用软件做一个打�
 
 你会看到如下图所示:
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmQwZjY0MTVjNDNlYTU4MGQ2NWY0ZjdmNjgwMTMwMGNfQ1FzMWJBMGxQUndwV2U0TDgxUDJrSzR0NTM4M1QxZjlfVG9rZW46SFpiWmJRSGRIb2NKUXh4RzlUb2MzcW5wbm9iXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/d485bbc4-bcde-423e-b68d-77fe9843c92c)
+
 
 树状目录结构：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MjhjYjQxOGZjNGFhOGYwNzEwNmRiM2VjYjlmMDQwMDFfOVZWcThjQzB3VFd1VlFjZ0ZwbWFrT3dubmo0WktxNmZfVG9rZW46QTdIQ2I3eFBPb1JMQVV4bEIxemNsY0tabkNoXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/e7932c5a-ddbf-4376-ae04-556ac72c75bf)
 
 以下是对这些目录的解释（看看就行，反正也记不住）：
 
@@ -106,7 +109,8 @@ sudo apt-get install openssh-server
 sudo service ssh status
 ```
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2Y3NTk2ZDFmNzVhZGY1YTA2ZTVmNmY4MmZkMTJjZGVfdW9wM0NQdTUxYUJGbWdNbmg5WThOZFZ2TnQxbFpLZ3pfVG9rZW46WmliamJ6Z1lnb294dXV4djBFV2NRSEVRbnVmXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/463be7f0-8ddf-4ebc-a9d7-e177263139e8)
+
 
 这样就是成功运行的样子。
 
@@ -120,27 +124,33 @@ sudo service ssh status
 
  记下其中的 IPv4 地址，例如 `192.168.200.131`。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YjMxZjk4MDg3ZTUwZDNmMWQ2N2FjMTg0MTJjZmM1ZmNfaEVMRTFWTGRSZk9TUlRKbHdPZWpOWVB6VkVuR1Z0ckdfVG9rZW46Vk5Gb2JKazI0b2ZvWGt4bnhORmM5enJjbmJlXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/65b3341a-59ae-43b8-85bb-b258e29c698e)
+
 
 #### 从 finalshell 连接 ubuntu 服务器
 
 打开 finalshell，点击下图箭头指向的图标
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YmZkY2QzZTE0NWE4ZjAzYWRkZGVhZThlMDA2NDAzYzJfaHZMdHE5SmpGSm5XaWo3bk9XNDExQ051WU1GcVZvOTNfVG9rZW46RUZiWGJVOHFMb2JGZkd4bXpMRWM2N2hJbjNkXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/2aeb30bc-5932-4fe4-b996-00887beba293)
+
 
 再点击如下图的图标，再选择ssh连接
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=Mzg0ZmM2NWM5YjM2MmY1NWNhYjExM2I4OGUwYmUzOGJfODlWVXFDZTlGY1JDTDdxdjFyalJiSlNPRHk5MWZnQ3NfVG9rZW46U2VtdGJib2tkb3ppeGx4Tkp2MmNZcHhwbmNjXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/7c67074f-5895-4aac-bd8e-e56f25be0eea)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDQ1NDZkMmIyNWI5NzA5MWY1Njc5NWFhYjFjN2U3ZjhfSzZwYWtIbmRGdWJXSHlZSnlndXVra0c4Vk9kZ291bmZfVG9rZW46UFpOMWJ0ckFnb3lwMjZ4Q3I5aWNDQnFubkVjXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+
+![image](https://github.com/user-attachments/assets/6876b644-fc41-4185-a61c-d0f0c26f5968)
+
 
 然后会出来一个输入连接信息的窗口，输入完毕后点击确定就可以连接。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmEwM2YyZTc0ODA0NzFlZTFlMDI5NmZmYzk0NGI2ZDZfWkh1VW4xRFpmeExIRmtOMXJnZFRuazFEdk8yWHhIM1NfVG9rZW46UWdsemJGU0hhb2V3RnV4NXFvc2NkV2Z0blFiXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/c36db3ec-8bbd-4ef5-baef-4c84628138e0)
+
 
 连接成功之后大概是这样的，成功之后就可以在这里操作虚拟机了
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=OTE3YjRkMGMwZjljMTRkZTk2ZmEzNjc4ZWM5NGMxNWVfdmloa29QUXhLOHU4a2ZReHFETFh4NEdzblJBdkhPVWZfVG9rZW46RjVaeGJReUxIbzJMaE54amkzU2NkOFVtbmZlXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/ea4b1b6c-edc7-430f-95ae-3e566373c5ae)
+
 
 ### Linux 文件基本属性
 
@@ -175,11 +185,12 @@ dr-xr-xr-x   4 root root 4096 Apr 19  2012 boot
 
 接下来的字符中，以三个为一组，且均为 **rwx** 的三个参数的组合。其中， **r** 代表可读(read)、 **w** 代表可写(write)、 **x** 代表可执行(execute)。 要注意的是，这三个权限的位置不会改变，如果没有权限，就会出现减号 **-** 而已。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2U1MTcxZjBkZDQ0MWI4NzYyNGI5MzM1NTA0OWE0YjFfR0FmSDk1QVJQaDRYdlR6V1FEQXp4NXpTZWI0YWl0SkdfVG9rZW46SlJUMWJkNGlLb0Rxd254dElUUmM0VXVObkViXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/a60e3d4d-a4c2-461a-a01f-03d0e2d73ab1)
+
 
 每个文件的属性由左边第一部分的 10 个字符来确定（如下图）。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2IwY2NmZGFmNTdjNzQ5MTA2MjQwZDJlZjgzYjYzZjVfbDN1S1dMOTA0UlVXYmE0eFNhNjF0ajExbnlTYWtkemNfVG9rZW46RGg3ZmJJaHVFb3loUVp4UmsxcWNFT1pQblJiXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/b5f57357-d415-4204-b4e0-b33a89320f4e)
 
 从左至右用 **0-9** 这些数字来表示。
 
@@ -382,8 +393,8 @@ pwd 是 **Print Working Directory** 的缩写，也就是显示目前所在目�
 - **-P** ：显示出确实的路径，而非使用链接 (link) 路径。
 
 实例：单纯显示出目前的工作目录：
+![image](https://github.com/user-attachments/assets/1ff871be-f2d3-435a-813c-ef8991438359)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YmFhZjFkOGRjY2YzMmZiMzU1MzM1ODFiNjE0MjkzY2JfbEwxdlRWR0lSaDB1bUhvQnlYbTlsbXpRTUpKb0U3cVFfVG9rZW46QzFFcmJ2SHFXb0xucnR4V3R6aGNuMk93bndiXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
 
 #### mkdir (创建新目录)
 
@@ -577,7 +588,8 @@ cat [-AbEnTv]
 
 检看 /etc/issue 这个文件的内容：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MTU4Njc2NDdjOTcxYzE1YzZkM2I3MGEwYTIwNTQ4NjNfSmJNeXpKZEIwc21nOGZxQ1psTlpFS3dBd0o2TWVscHZfVG9rZW46TEtZUWJyYU92b0pndDJ4YWxIQmNMMFdQbmVoXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/b9fab851-d111-48b2-916b-3ae57682f46c)
+
 
 ##### tac
 
@@ -601,13 +613,15 @@ nl [-bnw] 文件
 
 实例一：用 nl 列出 /etc/issue 的内容
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTUyMWQ4ZWRmZmEzMTBhMGMwNWY5MjZhZTRiZDkxNzBfcDhPQWwyQUcwTHE1ZGNZd0FlZkJmRTRIMTJJQTJkWFBfVG9rZW46QjBBRWJRelJib3BNQ3h4d0lpb2NiMExjbndiXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/d24b8f83-d10f-4073-93c9-e38b54f45466)
+
 
 ##### more
 
 一页一页翻动,你的光标会在箭头处等待你的命令
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NGE2NmJiYzgwYjgyN2JkMDVjNGU3Njg1ZGI3ZmQwNDZfRE50WmQycUhZSHJIc2t6WmdvenJPU1YxaVZLazlIUHVfVG9rZW46SUQ5Y2J6UjB3b1lOM0R4ZWExUmNDMWdMbk9oXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/1cfc8272-b31f-4140-8658-7fbe50c2d706)
+
 
 在 more 这个程序的运行过程中，你有几个按键可以按的：
 
@@ -674,7 +688,8 @@ vim +/关键字 文件路径
 
 打开文件时，字符串 root 已高亮显示
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDY2YzEzOWRjZjk5NDAwMjFmYjExYTM3ZGE2ZWQ5MzFfM1FjRDZBYlJMeHFZSFBMdTJOV2J6ZkZYbUEzYk04Q0RfVG9rZW46TU16cGJIYWNjbzM2MXF4aHpiNWN0R0czbmdCXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/9df707e0-843b-47b7-bd8c-a6a71fa83027)
+
 
 1. **命令模式**
 
@@ -750,7 +765,8 @@ vim +/关键字 文件路径
 
 1）输入模式和取代模式都是编辑模式，屏幕左下角出现 – INSTER – 或 – REPLACE –字样，表示进入了编辑模式，这时才可以输入内容。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjZkN2JhODg3NTU1MTkxMmVlNzFmMWI4MzZkODA1NTlfYWtITXdKNVlFVzdTMkZhS29oN3Y2MDNFaEdxeTFlUHZfVG9rZW46SlhiaGJJemdSb0Q1MVh4REZWV2NiRVdmbjJiXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/fde7ef8a-b1fc-4fbf-ba58-71b6cd844691)
+
 
 2）按下esc键，确认下右下角 – INSTER – 或 – REPLACE – 字样消失后，再进行其他操作，以免误操。
 
@@ -762,7 +778,8 @@ vim +/关键字 文件路径
 
 命令模式 或 vim打开文件时，按下 `:` 键，左下角出现 ：时，即表示末行模式。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2IwYWRiZDZiYzk5MjkwMDAxNjA0ODZhOTE3NDNlYzNfWFB3Tzh5Zkh0QUNQSUdCcmt3dGp2T2hnaWIyc0hCZndfVG9rZW46RG4xSGJ0RlFib1I5bmx4VnRjV2NkalFSbmRlXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/f32d638d-6287-47b9-8578-71938873b86d)
+
 
 | 指令            | 作用                                               |
 | --------------- | -------------------------------------------------- |
@@ -823,7 +840,8 @@ Docker 容器通过 Docker 镜像来创建。
 
 容器与镜像的关系类似于面向对象编程中的对象与类。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjYzNWI4MDYzMmIyNTRiMzk3NjRlNTNmMzRhMTk3ZjJfWU1TMFNkbGVmTjVmY21HWnQxa1hLQkRGb25RNDBIMmFfVG9rZW46TXlLamJKT002b1ZSQXV4SmFqSGNrRG1hbldnXzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/059424c0-fd0c-4db3-96be-8a123c4162dd)
+
 
 - `镜像`：一个镜像代表一个应用环境，他是一个只读的文件，如 MySQL 镜像、Tomcat 镜像、Nginx 镜像等
 - `容器`：镜像每次运行之后就是产生一个容器，就是正在运行的镜像，特点就是可读可写
@@ -833,7 +851,8 @@ Docker 容器通过 Docker 镜像来创建。
 
 #### Docker 架构示意图
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MDc4YmMzYWQ0OTU1OGQyYjE3YWQyY2ZjZTRkYTJlZjVfY1FpbklmemQwOGJYa0NDUDVMSjkwcTdMaVowY3R2MFRfVG9rZW46QktZUGIwajNkb3dBYjR4anE1aGNRd1Y2blo4XzE3MzQxNjkyNDE6MTczNDE3Mjg0MV9WNA)
+![image](https://github.com/user-attachments/assets/69debe41-41ba-4dd3-9fb3-23b5482ec705)
+
 
 #### Docker 架构的工作流程
 

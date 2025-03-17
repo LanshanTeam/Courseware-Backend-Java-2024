@@ -130,15 +130,14 @@ Path=$%2_HOME%/bin
 
 Windows把  `M2_HOME=/path/to/maven-3.9.x` 添加到环境变量中 ，再把`%M2_HOME%\bin`添加到系统Path变量中。我使用的是 `MAVEN_HOME`作为maven安装目录的变量名，这个可以自己定义，没有强制要求，不过最好见名知义，方便后续的管理。
 
-![image](https://github.com/user-attachments/assets/7424a6b5-bc75-4710-8070-65ea973fdcbe)
+[![image](https://github.com/user-attachments/assets/7424a6b5-bc75-4710-8070-65ea973fdcbe)](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/45b92848-c95f-4b7f-b1d0-8a1c2eea50d3.png)
 
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU0OGY2MDIzNTRhMTI1NzY2MzA4OTE4MmM5YTI3MzhfVDdzUDhtajU0a2htazNZZ29qT0c1REtmcGpjSGpYTDZfVG9rZW46QUZvUGJjcDQ2b3FLNW14M1hZU2NYczZGbmRiXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+[![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU0OGY2MDIzNTRhMTI1NzY2MzA4OTE4MmM5YTI3MzhfVDdzUDhtajU0a2htazNZZ29qT0c1REtmcGpjSGpYTDZfVG9rZW46QUZvUGJjcDQ2b3FLNW14M1hZU2NYczZGbmRiXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/5bd9a88d-8a18-4f8b-bdda-8206373ddc9c.png)
 
 然后，打开命令行窗口，输入`mvn -version`，应该看到Maven的版本信息：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NDczNzI2OWQ3YmE3ZjM4OTk2ZTI1MmY3MTlmOGM0ZmZfMEZNSlJ3aG5zM2k0UGdSVGo3REdRbE80UEhPOThSem1fVG9rZW46RkVzS2JyUGpTb2pvNDZ4RW1YU2M0QXZubmFlXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
-
+[lesson6/image/e2b8044d-57e7-44fa-ab34-f106f3816e2b.png](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/e2b8044d-57e7-44fa-ab34-f106f3816e2b.png)
 到这里maven的安装就完成了。
 
 > 如果使用了 IntelliJ IDEA ，可以不用去额外下载 Maven，直接使用 IDEA 中自带的 Maven 插件即可。IntelliJ IDEA 中自带的 Maven 插件在 `\ideaIU-2019.2.4.win\plugins\maven\lib\maven3`
@@ -157,7 +156,7 @@ Windows把  `M2_HOME=/path/to/maven-3.9.x` 添加到环境变量中 ，再把`%M
 
 现在存在 3 个仓库，那么 jar 包如何查找呢？
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2NiNDE5YzIzZWJmZDIyMDQyODlmYmUxYTFlMjE3MDRfWnlaM3YzdEVzVW1aN0g3UkY3dDlFZTVrb0pYckRzSEdfVG9rZW46Tzlyd2JKakZObzA4VWZ4czE1emN2VTIzbkdjXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+[![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2NiNDE5YzIzZWJmZDIyMDQyODlmYmUxYTFlMjE3MDRfWnlaM3YzdEVzVW1aN0g3UkY3dDlFZTVrb0pYckRzSEdfVG9rZW46Tzlyd2JKakZObzA4VWZ4czE1emN2VTIzbkdjXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)](https://github.com/LanshanTeam/Courseware-Backend-Java-2024/blob/main/lesson6/image/09ead09e-7013-4913-bac7-ba9a8acc6b01.png)
 
 #### 本地仓库配置
 
@@ -167,8 +166,8 @@ Windows把  `M2_HOME=/path/to/maven-3.9.x` 添加到环境变量中 ，再把`%M
 2. 默认的位置比较隐蔽，不容易碰到
 
 技术上来说，当然是可以自定义本地仓库位置的，在 conf/settings.xml 中自定义本地仓库位置：
+![image](https://github.com/user-attachments/assets/83313a43-4a98-498a-9bfd-091b928da932)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmMwNmUwNzRmMjVkMTRmOGE1NTI1YmYwZWU5ZjgyNjhfYXBtTHFRSVhSNURla2JNRURHRTBiQ0pwb3dCbVFZVnNfVG9rZW46SzJXZGJFcmV4b291YzF4aTdpTGNrNGNobndnXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
 
 #### 远程镜像配置
 
@@ -185,7 +184,8 @@ Windows把  `M2_HOME=/path/to/maven-3.9.x` 添加到环境变量中 ，再把`%M
 
 这段配置，加在 settings.xml 中的 mirrors 节点中：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MDUxNTUwNTc4MTUyMmMwNzBmN2ZjY2E4MzU0YWI4NTFfcXJMa1lpSUw2RTB2cFpnSk1JMFNqMVFRQlpqcXBtbTVfVG9rZW46Q0VZOWJGSEMzb1FDeXd4U2FnNmNBTEMzbktoXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/b0828d2f-bcd6-4229-8178-a26aa30bd1cb)
+
 
 ## Maven常见命令
 
@@ -206,7 +206,8 @@ Maven 中有一些常见的命令，如果使用 Eclipse 需要手动敲命令�
 
 当然，如果开发者使用了 IDEA ，这些命令不用手动敲，点一下就行：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDE5M2RkODc4M2JiNzNkNzA0Y2Y0MjliMjc1ODg4NTZfeWVXcFgxUmxhbWg0R2lSclgzVjQxMW9pWEdhTXhhRE9fVG9rZW46VkdUb2JMVllpb2ZiV2Z4TGNJRWM4bWJKbkRiXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/da0bcef1-eefc-4b12-bf8f-4f0e3f33eb0c)
+
 
 ###  **通过命令来构建项目**
 
@@ -226,7 +227,8 @@ IDEA 安装完成后，就可以直接使用 Maven 了。
 
 IDEA 中，Maven 的配置在 `File->Settings->Build,Execution,Deployment->Build Tools->Maven`:
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmNmYmUzN2JkYjhhMzU4OTE2NTdlZDY1ZDUxMjkyNjlfMW54VGlQcjN2N0FjOVd0MWVzVW1acVN6ZENTanpTMmtfVG9rZW46QkhlTWI1ZWlCb0FvV0Z4cDNBaWM0bDZSbnVlXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/c000dc73-548a-4199-83a7-8996add3e189)
+
 
 ### IDEA 创建Maven工程
 
@@ -894,7 +896,8 @@ Apache Tomcat 是Java Servlet、JavaServer Pages （JSP）、Java表达式语言
 
 tomcat各版本和相应规范的映射关系（可以在[官网](https://tomcat.apache.org/whichversion.html)查看详细信息）：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjBlM2U5ODk1MTYwYTYxNzY2MDM2MDJkNWJlZTk5MzBfWFlzalhhR2cwWlBHSTdmU3N4dURiZHRyS2FJMU85VmZfVG9rZW46Q1Nnc2IzcWpBb2RUZUp4Q0NVMWNCSVNlbmpmXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/dcca3f79-f4ce-4684-8de4-8e7d5ae00188)
+
 
 下载地址：
 
@@ -904,11 +907,13 @@ https://tomcat.apache.org/download-90.cgi
 
 下载到本地并解压：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MTVlMmJiNTExOTYxMzE1YWY5N2MxN2ZjMWQ2NjI4MDdfcHdESnNnWDRQT0JSN0l0S0FQVnpua3hQd1dqMXMzdXdfVG9rZW46WEszb2JwWnFNb2kzeEN4TUp1eWNSNGtqbnVkXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/0ed18d76-f015-4bdf-8a08-98a73cf68d75)
+
 
 进入主目录：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=YTAyMTIyYTVhZGFmNGIxODQ1ODQyYmFjOTk4NWViZDdfR1pzdGF6b2Q4MFBqRnhQc0pRR0lwOUdXejR3Y2hGU2NfVG9rZW46Qm5DYmIyN3hxb0VnaTF4eW9MNGNnWkpyblRlXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/50e7253e-64df-4705-97bd-4d6580238b41)
+
 
 ### tomcat目录介绍(了解一下，不需要记住，需要的是时候再查文档)
 
@@ -985,7 +990,8 @@ http://localhost:8080/
 
 页面展示：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MjcxMGUyODhjODVmZTNmY2M0MGJhYTQ0YTYxYzI4YzFfU01hWlJsTzdrUXV0RmNkNDZqWkc4Y2lzWVU2ZGZDc21fVG9rZW46SEM3MWJGbENrbzMwWTR4Vjg3TmN4eHZjblpmXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/00f2d0e8-fb15-45f7-a147-416c0819154a)
+
 
 这就代表着我们的tomcat启动成功了。
 
@@ -1142,7 +1148,8 @@ destroy() 方法只会被调用一次，在 Servlet 生命周期结束时被调�
 - Servlet 容器在调用 service() 方法之前加载 Servlet。
 - 然后 Servlet 容器处理由多个线程产生的多个请求，每个线程执行一个单一的 Servlet 实例的 service() 方法。
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU0OGJjNjg3Y2M4OWZiNWQxY2U1MDJmZTlkYWMwMDhfV0RGTlV5d0I2cXFYbXFLZXFLUmd5Sk1OYXNqQVBYSUNfVG9rZW46UEpGTmI5OG01b1Y2Q2J4clN0Z2NORW5ibjFlXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/65940d70-00b4-43bb-9d47-dea6936f6bbc)
+
 
 ### Servlet实例
 
@@ -1427,7 +1434,8 @@ Location: /hello
 
 观察Chrome浏览器的网络请求，可以看到两次HTTP请求：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=Yjg1ZTQ3ZTljNTliOTJhZmJmNjQ1MTMyNGQ2Njg4OGNfYXQ1Vk1EUFhkU2xESkt2eHhBU1lhYlhtMzF1dzVZWGhfVG9rZW46SEltdWJxaDVJb2xpaWF4U2tKVmN5ZGdmbnNlXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/8dd02ef3-9a65-431e-b923-aa52e8b9d197)
+
 
 并且浏览器的地址栏路径自动更新为`/hello`。
 
@@ -1483,7 +1491,8 @@ req.getRequestDispatcher("/hello").forward(req, resp);
 
 转发和重定向的区别在于，转发是在Web服务器内部完成的，对浏览器来说，它只发出了一个HTTP请求：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTViMTZmMDBkYzRjMzM0YzBhOTkwYWQ4ZTFhMDMzODZfUFk4aE9FaFZUWVk4ZXlkODRkSmc1anNlamR2a2U0MXhfVG9rZW46SE04bWJ0U3hBb0hxUUV4UjM0Q2N6MVEzblVsXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/7fc0f660-c753-4d42-9ed3-a5311c183b62)
+
 
 注意到使用转发的时候，浏览器的地址栏路径仍然是`/morning`，浏览器并不知道该请求在Web服务器内部实际上做了一次转发。
 
@@ -1589,8 +1598,8 @@ public class IndexServlet extends HttpServlet {
 ```
 
 而服务器识别Session的关键就是依靠一个名为`JSESSIONID`的Cookie。在Servlet中第一次调用`req.getSession()`时，Servlet容器自动创建一个Session ID，然后通过一个名为`JSESSIONID`的Cookie发送给浏览器：
+![image](https://github.com/user-attachments/assets/7f9f0dbc-a050-4a7e-9e49-f234cb7117db)
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=M2Y1OTg1OGM0Y2ZiNTJjYTgxYTMwZDFmYjU3MjJhODJfdTk1RXFvS25vTXlqYVA4ODNyWkNJcTVmRXBEZ2t0SG9fVG9rZW46WWdGN2JsVmRlbzdudHd4Y1psUWNqc2hpbkJjXzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
 
 这里要注意的几点是：
 
@@ -1670,7 +1679,8 @@ public class LanguageServlet extends HttpServlet {
 
 我们可以在浏览器看到服务器发送的Cookie：
 
-![img](https://lanshanteam.feishu.cn/space/api/box/stream/download/asynccode/?code=NmIxMmZkY2E0NGNhOGEwYjM5MjhmYTJkMGY5MDJhYTJfdE5TRldUbXpKeDR3Q3BLTWNEODBYVGEwRVhaTTVXQ2pfVG9rZW46VVNtNGJ5ckdrbzRybWZ4SzZDQ2N6V2NqbkV4XzE3MzE4MjYxODg6MTczMTgyOTc4OF9WNA)
+![image](https://github.com/user-attachments/assets/47f7679d-46d8-40fb-b7a1-9d158febcf76)
+
 
 如果我们要读取Cookie，例如，在`IndexServlet`中，读取名为`lang`的Cookie以获取用户设置的语言，可以写一个方法如下：
 

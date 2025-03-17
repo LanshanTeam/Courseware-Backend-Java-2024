@@ -15,10 +15,10 @@
 | 3        | 面向对象进阶              | 抽象类、final、static、Lambda表达式、内部类                  | 肖智文 |
 | 4        | 泛型、异常处理、集合框架  | 泛型、异常处理、常见单列/双列集合用法、集合的遍历             | 郑雪怡 |
 | 5        | 多线程、io、反射          | 线程基础知识、多线程API、线程安全、线程池、I/O API、反射API  | 刘成兴 |
-| 6        | Maven、Java Web           |                                                              | 黄渝淮 |
+| 6        | Maven、Java Web           |     maven、tomcat基本使用，servlet的基础开发                             | 黄渝淮 |
 | 7        | SQL、MySQL、Redis        |  关系型数据库、CRUD的SQL、MySQL、Redis                                                            | 雷超   |
 | 8        | Spring、SpringMVC         | Spring(IoC、AOP)、Java后端架构、SpringMVC(原理、接收数据、响应数据、拓展) | 刘成兴 |
 | 9        | Mybatis、Springboot       | Mybatis入门，Springboot整合其他框架                          | 蒋文杰 |
-| 10       | Linux、Docker、服务器部署 |                                                              | 黄渝淮 |
+| 10       | Linux、Docker、服务器部署 |      Linux基本操作和docker项目部署                                      | 黄渝淮 |
 | 寒假考核 | 完成一个单体项目          | 单人或双人（与前端同学合作开发）考核                         |        |
 
